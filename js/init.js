@@ -42,7 +42,7 @@ var getJSONData = function(url){
 
 //console.log(true);
 //console.log(sessionsStorage.getItem('logueado'));
-if(!sessionStorage.getItem("logged")){
+if(!sessionStorage.getItem("logged") && window.location.href endswith()"login.html"{
   window.location = "login.html"}
 //Función que se ejecuta una vez que se haya lanzado el evento de
 //que el documento se encuentra cargado, es decir, se encuentran todos los
